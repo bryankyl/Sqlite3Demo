@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect("student.db")
+conn = sqlite3.connect("students.sqlite")
 
 c = conn.cursor()
 c = conn.execute("""
